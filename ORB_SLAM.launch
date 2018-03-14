@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+<!-- Launch the HexDrone node-->
+
+	<!-- Launch the hexdrone ORB-slam -->
+	<node pkg="ORB_SLAM2" type="Mono" name="SEMINARIO"  args="/home/pablo/catkin_ws/src/ORB_SLAM2/Vocabulary/ORBvoc.txt /home/pablo/catkin_ws/src/ORB_SLAM2/Examples/ROS/ORB_SLAM2/Asus.yaml" cwd="node" output="screen"> 
+					
+	</node>
+
+</launch>
+
